@@ -33,4 +33,7 @@ the app is a console (screen) app
 
 executables for Windows 32bit and Linux 64 bit plus source code
 
+
+version 1.0.2 - a personal message when returning to smoke
+
 version 1.0.1 - bigger screen (screen 20 instead of 19)
