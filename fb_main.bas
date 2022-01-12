@@ -6,7 +6,7 @@ dim shared quit_date as double
 dim shared quitting_counter as LONG
 DIM SHARED AS STRING reason_for_quitting, message_to_self
 
-screen 19
+screen 20
 
 sub read_to_file()
 	dim f as long = freefile()
