@@ -1,4 +1,3 @@
-screen 19
 
 'APPEND TO the STRING array the STRING item
 SUB sAppend(arr() AS STRING , Item AS STRING)

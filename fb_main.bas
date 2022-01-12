@@ -1,3 +1,4 @@
+
 #INCLUDE "vbcompat.bi"
 #include "fb_utils.bas"
 
@@ -37,7 +38,7 @@ End Sub
 
 sub quitting()
 	cls
-	if NOT CBool(FILEEXISTS(filelog)) then
+	if fileexists(filelog) = false then 'INSTEAD OF 'NOT CBool(FILEEXISTS(filelog)) then
 		write_to_file()
 		center 2, "YOU STARTED TO QUIT NOW! AT " & DATE & " GOOD LUCK!"
 		print
@@ -72,20 +73,21 @@ sub quitting()
 	center 35, "PRESS KEY 1 TO RETURN TO MAIN MENU"
 	k = getkeys("s1")
 	if k = "s" then
-		dim h as string
+		txtfile("message.txt")
+		dim key as string
 		kill(filelog)
 		cls
 		center 5 , "WE ARE SO SORRY YOU'RE BACK SMOKING :( PLEASE CONIDER TRYING AGAIN :-/"
 		center 7, "PRESS KEY H FOR INFO ABOUT N.R.T. (NICOTINE REPLACMENT THERAPY) - OPENS URL IN BROWSER"
 		center 9, "PRESS ESC TO RERUN TO MAIN MANU"
-		h = getkeys("h" & chr(27))
-		if h = "h" then
+	 key = getkeys("h" & chr(27))
+		if key = "h" then
 			#ifdef __FB_LINUX__
 				SHELL("xdg-open https://en.wikipedia.org/wiki/Nicotine_replacement_therapy")
 			#else
 				shell("start https://en.wikipedia.org/wiki/Nicotine_replacement_therapy")
 			#EndIf
-		elseif h = chr(27) then
+		elseif key = chr(27) then
 			exit sub
 		EndIf
 	ELSEIF k = "1" then
@@ -100,6 +102,7 @@ End Sub
 
 
 sub main1()
+	txtfile("opening.txt")
 	do
 		dim k as string
 		CLS
@@ -131,14 +134,5 @@ End Sub
 
 
 
-
-
-
-
-
-
-
-
-txtfile("opening.txt")
 main1()
 sleep
