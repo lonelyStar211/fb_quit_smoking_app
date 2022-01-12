@@ -2,6 +2,7 @@
 a very basic quitting smoking app in freebasic
 
 our forum: https://retrocoders.freeforums.net/
+support for quitting smoking - join us at #quit-smoking channel on DALnet irc!
 
 ```
 		BLUE21 QUIT SMOKING APP IN FREEBASIC V.1.0
