@@ -38,7 +38,7 @@ End Sub
 
 sub quitting()
 	cls
-	if fileexists(filelog) = false then 'INSTEAD OF 'NOT CBool(FILEEXISTS(filelog)) then
+	if fileexists(filelog) = false then 'INSTEAD OF 'if NOT CBool(FILEEXISTS(filelog)) then
 		write_to_file()
 		center 2, "YOU STARTED TO QUIT NOW! AT " & DATE & " GOOD LUCK!"
 		print
@@ -57,43 +57,44 @@ sub quitting()
 			center 2, "YOU ARE: " & quitting_counter & " DAYS NOT SMOKING! STAY STRONG! :)"
 		EndIf
 		
-	EndIf
-	dim k as STRING
-	print
-	print
-	center 4, "THE REASON YOU WANT TO QUIT IS:" 
-	print
-	print UCASE(reason_for_quitting)
-	print
-	center 15, "YOUR MESSAGE TO YOURSELF WHEN CRAVING STARTS IS:"
-	print
-	print UCASE(message_to_self)
-	
-	center 34, "PRESS S KEY IF YOU STARTED SMOKING AGAIN :("
-	center 35, "PRESS KEY 1 TO RETURN TO MAIN MENU"
-	k = getkeys("s1")
-	if k = "s" then
-		txtfile("message.txt")
-		dim key as string
-		kill(filelog)
-		cls
-		center 5 , "WE ARE SO SORRY YOU'RE BACK SMOKING :( PLEASE CONIDER TRYING AGAIN :-/"
-		center 7, "PRESS KEY H FOR INFO ABOUT N.R.T. (NICOTINE REPLACMENT THERAPY) - OPENS URL IN BROWSER"
-		center 9, "PRESS ESC TO RERUN TO MAIN MANU"
-	 key = getkeys("h" & chr(27))
-		if key = "h" then
-			#ifdef __FB_LINUX__
-				SHELL("xdg-open https://en.wikipedia.org/wiki/Nicotine_replacement_therapy")
-			#else
-				shell("start https://en.wikipedia.org/wiki/Nicotine_replacement_therapy")
-			#EndIf
-		elseif key = chr(27) then
+		'EndIf
+		dim k as STRING
+		print
+		print
+		center 4, "THE REASON YOU WANT TO QUIT IS:" 
+		print
+		print UCASE(reason_for_quitting)
+		print
+		center 15, "YOUR MESSAGE TO YOURSELF WHEN CRAVING STARTS IS:"
+		print
+		print UCASE(message_to_self)
+		
+		
+		center 34, "PRESS S KEY IF YOU STARTED SMOKING AGAIN :("
+		center 35, "PRESS KEY 1 TO RETURN TO MAIN MENU"
+		k = getkeys("s1")
+		if k = "s" then
+			txtfile("message.txt")
+			dim key as string
+			kill(filelog)
+			cls
+			center 5 , "WE ARE SO SORRY YOU'RE BACK SMOKING :( PLEASE CONIDER TRYING AGAIN :-/"
+			center 7, "PRESS KEY H FOR INFO ABOUT N.R.T. (NICOTINE REPLACMENT THERAPY) - OPENS URL IN BROWSER"
+			center 9, "PRESS ESC TO RERUN TO MAIN MANU"
+			key = getkeys("h" & chr(27))
+			if key = "h" then
+				#ifdef __FB_LINUX__
+					SHELL("xdg-open https://en.wikipedia.org/wiki/Nicotine_replacement_therapy")
+				#else
+					shell("start https://en.wikipedia.org/wiki/Nicotine_replacement_therapy")
+				#EndIf
+			elseif key = chr(27) then
+				exit sub
+			EndIf
+		ELSEIF k = "1" then
 			exit sub
 		EndIf
-	ELSEIF k = "1" then
-		exit sub
-	EndIf
-	
+	endif
 	
 	
 End Sub	
