@@ -33,6 +33,8 @@ the app is a console (screen) app
 
 executables for Windows 32bit and Linux 64 bit plus source code
 
+version 1.0.4 - added quitting attempts counter and failed attempts log
+
 version 1.0.3 - fixed display bugs
 
 version 1.0.2 - a personal message when returning to smoke
