@@ -75,3 +75,8 @@ SUB calculate()
 	SLEEP
 END SUB
 
+'clear buffer of the keybord (batbass the keypress of sleep)
+SUB SleepEx()
+  sleep
+  While Inkey <> "":Wend
+end SUB
