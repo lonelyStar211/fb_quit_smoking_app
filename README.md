@@ -24,7 +24,7 @@ BECOME LESS FREQUENTLY AS THE TIME PASS HOWEVER THERE WILL BE ALWAYS
 CRAVINGS FROM TIME TO TIME AND THEY PASS AWAY TILL NEXT TIME.
 
 THIS APP IS INTENDED TO BE USEFUL AS MUCH AS POSSIBLE HOWEVER IT IS UP TO YOU
-HOW TO USE IT AND HOW TO QUIT FOR GOOD SMOKING...
+HOW TO USE IT AND HOW TO QUIT FOR GOOD SMOKING...pioint
 
 I WISH ALL OF US ALL THE BEST AND HOPE BOTH OF US WILL ONE DAY BE ABLE TO BE
 EX-SMOKERS.
@@ -32,6 +32,8 @@ EX-SMOKERS.
 the app is a console (screen) app
 
 executables for Windows 32bit and Linux 64 bit plus source code
+
+version 1.0.5 - added peer week opening messages and tips and a quitting chatbot advisor
 
 version 1.0.4 - added quitting attempts counter and failed attempts log
 
