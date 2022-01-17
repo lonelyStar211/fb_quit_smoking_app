@@ -1,14 +1,14 @@
 
-'APPEND TO the STRING array the STRING item
-SUB sAppend(arr() AS STRING , Item AS STRING)
-	REDIM PRESERVE arr(LBOUND(arr) TO UBOUND(arr) + 1) AS STRING
-	arr(UBOUND(arr)) = Item
-END SUB
-'APPEND TO the INTEGER array the INTEGER item
-SUB nAppend(arr() AS INTEGER , Item AS INTEGER)
-	REDIM PRESERVE arr(LBOUND(arr) TO UBOUND(arr) + 1) AS INTEGER
-	arr(UBOUND(arr)) = Item
-END SUB
+''APPEND TO the STRING array the STRING item
+'SUB sAppend(arr() AS STRING , Item AS STRING)
+	'REDIM PRESERVE arr(LBOUND(arr) TO UBOUND(arr) + 1) AS STRING
+	'arr(UBOUND(arr)) = Item
+'END SUB
+''APPEND TO the INTEGER array the INTEGER item
+'SUB nAppend(arr() AS INTEGER , Item AS INTEGER)
+	'REDIM PRESERVE arr(LBOUND(arr) TO UBOUND(arr) + 1) AS INTEGER
+	'arr(UBOUND(arr)) = Item
+'END SUB
 
 '1 getkeys function
 

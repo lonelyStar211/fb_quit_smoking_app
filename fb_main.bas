@@ -1,5 +1,6 @@
 
 #INCLUDE "vbcompat.bi"
+#include "chatbot_advisor.bas"
 #include "fb_utils.bas"
 
 const attemptslog = "attempts.txt"
@@ -75,6 +76,18 @@ sub append_to_file()
 	close #f
 End Sub
 
+sub quitty_advisor()
+	cls	
+	DIM rply AS STRING '              for main loop
+	LoadArrays("chatbot_script.txt") '   check file load, OK checks out
+	speakTotext(Greeting)
+	'start testing main Eliza code
+	DO
+		
+		rply = GetReply
+		PRINT : speakTotext(rply)
+	LOOP UNTIL rply = "Goodbye!"
+End Sub
 
 sub quitting()
 	cls
@@ -116,7 +129,8 @@ sub quitting()
 		
 		center 43, "PRESS S KEY IF YOU STARTED SMOKING AGAIN :("
 		center 44, "PRESS KEY 1 TO RETURN TO MAIN MENU"
-		k = getkeys("s1")
+		center 45, "PRESS C KEY TO CHAT WITH QUITTY THE ADVISOR CHATBOT"
+		k = getkeys("s1c")
 		if k = "s" then
 			txtfile("message.txt")
 			sleepex()
@@ -141,6 +155,8 @@ sub quitting()
 			EndIf
 		ELSEIF k = "1" then
 			exit sub
+		elseif k ="c" then
+			quitty_advisor()
 		EndIf
 	endif
 	
@@ -158,10 +174,36 @@ sub view_pass_attempts()
 	Next
 End Sub
 
+sub opening_page()
+	if fileexists(filelog) then
+		read_to_file()
+		dim d1 as double
+		d1 = now()
+		quitting_counter = datediff("d", quit_date, d1)
+		if quitting_counter >= 0 and quitting_counter < 8 then
+			'center 1, "QUITTING SMOKING DAY NUMBER: " & quitting_counter
+			txtfile("week1.txt")
+		ELSEIF quitting_counter >= 8 and quitting_counter < 15 then
+			txtfile("week2.txt")
+		elseif quitting_counter >= 15 and quitting_counter < 22 then
+			txtfile("week3.txt")
+		elseif quitting_counter >= 22 and quitting_counter < 29 then
+			txtfile("week4.txt")
+		elseif quitting_counter >= 29 then
+			txtfile("victory.txt")
+		EndIf
+	else
+		txtfile("opening.txt")
+	EndIf
+End Sub
+
+
+
 
 sub main1()
 	if fileexists(attemptslog) = true then attempts_read()
-	txtfile("opening.txt")
+	'txtfile("opening.txt")
+	opening_page()
 	do
 		dim k as string
 		CLS
@@ -173,6 +215,7 @@ sub main1()
 		if fileexists(attemptslog) = true then
 			center(14, "5. VIEW PAST ATTEMPTS LOG")
 		endif
+		'center(12, "4. CHAT WITH QUITTY THE CHATBOT ADVISER")
 		center(12, "4. EXIT")
 		k = getkeys("12345")
 		if k = "4" then
@@ -191,6 +234,8 @@ sub main1()
 			quitting()
 		elseif k = "5" then
 			view_pass_attempts()
+		'elseif k = "4" then
+			'quitty_advisor()
 		EndIf
 	loop
 End Sub

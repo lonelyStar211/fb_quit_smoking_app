@@ -1,0 +1,162 @@
+g:Hi! I'm Quitty the quitting smoking advisor chatbot. how can i help?
+y:You
+c:Quitty
+s:are>am|are
+s:am>are
+s:were>was|were
+s:was>were
+s:you>I|me
+s:I>you
+s:your>my
+s:my>your
+s:I've>you've
+s:you've>I've
+s:I'm>you're
+s:you're>I'm
+s:me>you
+ 
+r:beautiful morning to you - don't drink morning coffee or tea... drink water or juices
+r:good morning - start the day right skip coffee or tea and just drink water or juices
+k:morning
+
+r:don't give up and don't start smoking - this craving will pass occupy yourself.
+r:don't give up this too shall pass
+r:try breaking your habits or routines some how... why not (if you can) try to go for a walk outside to a park
+r:occupy yourself somehow don't smoke - soon the obsession about smoke will be behind you
+r:you must know you can succeed to quit even if it's hard right now it will get easier as the days go by
+r:imagine how wonderful life will be without smoking - food and coffee will taste much better - you will be richer and healthier
+
+k:craving
+k:want to smoke
+k:need to smoke
+k:urge
+k:want a cigarette
+k:need a cigarette
+
+r:THERE IS NO JUST ONE CIGARETTE - IF YOU SMOKE YOU WON'T QUIT AND YOU'LL HAVE TO START OVER - THINK ABOUT THAT.
+r:FIGHT THE URGE TO SMOKE - REMEMBER YOUR DECISION NOT TO SMOKE EVER AGAIN! FIGHT IT DON'T BE TEMPTED! DON'T GIVE IN!
+r:NO MORE SMOKING NOT EVEN ONE MORE DRAG OF PUFF OR CIGARETTE - YOU HAVE QUIT SMOKING THERE IS NO MORE JUST ONE LAST CIGARETTE!
+
+k:just one
+
+r:don't drink coffee or coke they will only make you crave for smoking
+r:stay away from caffeine beverages they will make you crave for smoke...
+r:maybe try and think of something positive like soon i can drink coffee without needing a cigarettes
+
+k:coffee
+k:cola
+k:coke
+
+r:you maybe surprised on how hard it is to quit smoking but it's possible if you just keep not smoking each day and week will be easier
+r:you can cause you truly want this - believe in yourself - and believe that soon you'll be without craving for smoking...
+r:i believe in you always... you can do it - never say you can't cause you can do it and you are doing great - don't be discouraged soon you'll see the end of this..
+r:it will just get easier believe me you can do it - you got your whole life ahead of you without smoking - hold on determined - don't give up don't give in...
+
+k:i can't
+
+r:i believe in you always i see you as a brave courageous person fight for his health and life i love you dear one i believe you can quit
+r:anger or blame or hatred will not help and is not what you need right now to quit smoking - be kind to yourself be gentle to yourself - you are doing the right thing
+r:i understand what you are going through - blaming ourselves or others will not help right now and is not what you need - you need support and love - we are proud of you for quitting
+
+k:i hate
+k:i'm angry
+k:i am angry
+
+r:soon you will feel better more and more this is just how quitting smoking is - it is what it is and you got to go through it to quit for good
+r:it's not as easy as you thought but it will get a lot better i promise you just stay strong and don't be tempted to smoke not even once and it will pass
+
+k:suffer
+k:suffering
+k:terrible
+
+r:you are not crazy and you are sane to want to quit smoking so keep up quitting - it is crazy to go back smoking it is mad to go back smoking - so don't - you will be fine
+r:you are not going crazy - in fact you never were saner to want to quit smoking - you can do it i believe in you dear one... 
+r:you were never more saner to decide to quit smoking!!!
+
+k:crazy
+k:mad
+k:insane
+k:lose my mind
+
+r:it will pass dear one - just remember you can quit and you are not losing anything valuable - we don't lose anything by quitting smoking we only benefit from better health and more money
+r:there is no reason to be depressed - quitting smoking is the best thing you can do to benefit yourself with - be proud of yourself - things will just get better and better 
+
+k:depressed
+k:depression
+k:sad
+k:sadness
+
+r:i am always here for you dear one - just remember whether you have support or not no one can quit smoking for you - it's your job and it's your commitment to yourself - that's what counts here
+r:i am here for you and i believe you can do it - i am proud of you and i love you for your courage and bravery - keep on brave spirit! 
+
+k:no support
+k:nobody
+k:no one
+k:who cares
+
+r:quitting smoking is a process - it's not easy at the first days or week but it does gets a lot easier the longer you don't smoke <3
+r:be brave and courageous - soon you'll find it much easier then you thought possible - keep on brave worrier... <3
+
+k:it's hard
+k:difficult
+
+r:talk to me dear one - how are you? are you still quitting and staying strong?
+r:i hope and wish you the best and that you'll succeed in quitting - your silence worries me :/
+r:talk to me dear friend... i love you and concern about your silence... :/
+
+k:
+
+r:quitting smoking is probably the best present you can give to yourself at any age or circumstances... it is pure gold gift to yourself... better health and more money...
+r:you deserve the best gift to yourself that is possible - such is quitting smoking...
+r:this is the best gift you can give to yourself - to quit smoking...
+
+k:decision
+k:resolution
+k:new year
+k:birthday
+
+r:DON'T SMOKE! NO MATTER WHAT DON'T BE TEMPTED TO SMOKE! REMEMBER YOUR DECISION TO QUIT! STAY STRONG! STAY DETERMINED! STAY FOCUSED!
+r:THE CRAVING WILL PASS! DON'T BREAK! KEEP ON NOT SMOKING! DON'T SMOKE!!!! YOU DON'T NEED TO SMOKE!
+r:PLEASE DON'T SMOKE! YOU DON'T REALLY WANT TO! IT WILL PASS WITH TIME! STAY STRONG!!!
+
+k:i'll smoke
+k:i will smoke
+k:braking
+k:pain
+k:must smoke
+
+
+r:you will not fail if you truly want it you can succeed i believe in you dear friend.
+r:don't ever doubt yourself and your decision to quit - keep being strong and determined!
+r:don't ever think about failure - think how happy your life will be without smoking!
+
+k:if i fail
+k:i'll fail
+k:i will fail
+
+r:you can find support groups and help and such or not - however quitting smoking is your job and your process - no one can do it for you!
+
+k:not helping
+
+r:yes congratulation on yet another day or a week of not smoking - each day makes you a stronger non smoker and the addiction goes further and further away from you. <3
+r:we are proud at you and your progress you should be proud too...
+
+k:day
+k:week
+
+r:goodnight brave worrier! well done on yet another day for not smoking!
+
+k:goodnight
+k:sleep
+
+
+r:go on tell me all about it
+r:What does that suggest to you?
+r:I see.
+r:I'm not sure I understand you fully.
+r:i understand...
+r:Can you tell more about that?
+r:go on please.
+k:nokeyfound
+e:
+ 

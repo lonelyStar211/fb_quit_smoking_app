@@ -1,0 +1,192 @@
+g:Hi! I'm Quitty the quitting smoking advisor chatbot. how can i help?
+y:You
+c:Quitty
+s:are>am|are
+s:am>are
+s:were>was|were
+s:was>were
+s:you>I|me
+s:I>you
+s:your>my
+s:my>your
+s:I've>you've
+s:you've>I've
+s:I'm>you're
+s:you're>I'm
+s:me>you
+ 
+r:Don't you believe that I can*
+r:Perhaps you would like to be like me*
+r:You want me to be able to*
+k:can you
+ 
+r:Perhaps you don't want to*
+r:Do you want to be able to*
+k:can i
+ 
+r:What makes you think I am*
+r:Does it please you to believe I am*
+r:Perhaps you would like to be*
+r:Do you sometimes wish you were*
+k:you are
+k:you're
+ 
+r:Don't you really*
+r:Why don't you*
+r:Do you wish to be able to*
+r:Does that trouble you*
+k:I don't
+ 
+r:Do you often feel*
+r:Do you often feel*
+r:Do you enjoy feeling*
+k:I feel
+ 
+r:Do you really believe I don't*
+r:Perhaps in good time I will*
+r:Do you want me to*
+k:Why don't you
+r:Do you think you should be able to*
+r:why can't you*
+k:why can't I
+ 
+r:Why are you interested in whether or not I am*
+r:Would you prefer if I were not*
+r:Perhaps in your fantasies I am*
+k:Are you
+r:How do you know you can't*
+r:Have you tried?
+r:Perhaps you can now*
+k:I can't
+ 
+r:Did you come to me because you are*
+r:How long have you been*
+r:Do you believe it is normal to be*
+r:Do you enjoy being*
+k:I am
+k:I'm
+ 
+r:We were discussing you--not me.
+r:Oh, I*
+r:You're not really talking about me, are you?
+k:you
+ 
+r:What would it mean to you if you got*
+r:Why do you want*
+r:Suppose you soon got*
+r:What if you never got*
+r:I sometimes also want*
+k:I want
+ 
+r:Why do you ask?
+r:Does that question interest you?
+r:What answer would please you the most?
+r:What do you think?
+r:Are such questions on your mind often?
+r:What is it that you really want to know?
+r:Have you asked anyone else?
+r:Have you asked such questions before?
+r:What else comes to mind when you ask that?
+k:what
+k:how
+k:who
+k:where
+k:when
+k:why
+ 
+r:Names don't interest me.
+r:I don't care about names --please go on.
+k:name
+ 
+r:Is that the real reason?
+r:Don't any other reasons come to mind?
+r:Does that reason explain anything else?
+r:What other reasons might there be?
+k:cause
+ 
+r:Please don't apologize!
+r:Apologies are not necessary.
+r:What feelings do you have when you apologize?
+r:Don't be so defensive!
+k:sorry
+ 
+r:What does that dream suggest to you?
+r:Do you dream often?
+r:What persons appear in your dreams?
+r:Are you disturbed by your dreams?
+k:dream
+ 
+r:How do you do ...please state your problem.
+k:Hello
+k:hi
+ 
+r:You don't seem quite certain.
+r:Why the uncertain tone?
+r:Can't you be more positive?
+r:You aren't sure?
+r:Don't you know?
+k:maybe
+ 
+r:Are you saying no just to be negative?
+r:You are being a bit negative.
+r:Why not?
+r:Are you sure?
+r:Why no?
+k:no
+ 
+r:Why are you concerned about my*
+r:What about your own*
+k:your
+ 
+r:Can you think of a specific example?
+r:When?
+r:What are you thinking of?
+r:Really, always?
+k:always
+ 
+r:Do you really think so?
+r:But you are not sure you*
+r:Do you doubt you*
+k:think
+ 
+r:In what way?
+r:What resemblance do you see?
+r:What does the similarity suggest to you?
+r:What other connections do you see?
+r:Could there really be some connection?
+r:How?
+r:You seem quite positive.
+k:alike
+ 
+r:Are you sure?
+r:I see.
+r:I understand.
+k:yes
+ 
+r:Why do you bring up the topic of friends?
+r:Do your friends worry you?
+r:Do your friends pick on you?
+r:Are you sure you have any friends?
+r:Do you impose on your friends?
+r:Perhaps your love for friends worries you.
+k:friend
+ 
+r:Do computers worry you?
+r:Are you talking about me in particular?
+r:Are you frightened by machines?
+r:Why do you mention computers?
+r:What do you think machines have to do with your problem?
+r:Don't you think computers can help people?
+r:What is it about machines that worries you?
+k:computer
+ 
+r:Say, do you have any psychological problems?
+r:What does that suggest to you?
+r:I see.
+r:I'm not sure I understand you fully.
+r:Come come elucidate your thoughts.
+r:Can you elaborate on that?
+r:That is quite interesting.
+k:nokeyfound
+e:
+ 
